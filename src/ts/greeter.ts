@@ -15,7 +15,8 @@ function greeter(person: Student) {
 }
 
 // var user = "Jane User";
-var user = new Student("Lisa", "A", "Willingham");
+var user = new Student("Derek", "A", "Willingham");
 
 document.body.innerHTML = greeter(user);
+document.title = "Hello TypeScript!";
 console.log("Hello World from TypeScript!");
